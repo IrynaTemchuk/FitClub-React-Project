@@ -15,7 +15,7 @@
 .right-h {
     flex: 1;
     position: relative;
-    background-color: ver(--orange);
+    background-color: var(--orange);
 }
 
 .the-best-ad {
@@ -38,7 +38,7 @@
 
 .the-best-ad>div {
     position: absolute;
-    background-color: ver(--orange);
+    background-color: var(--orange);
     width: 5.4rem;
     height: 80%;
     left: 8px;
