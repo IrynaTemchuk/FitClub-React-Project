@@ -5,8 +5,9 @@ import Programs from './components/Programs/Programs';
 function App() {
   return (
     <div className="App">
-      <Hero />
-      <Programs />
+      <Hero/>
+      <Programs/>
+      <Reasons/>
     </div>
   );
 }
