@@ -1,6 +1,6 @@
 import React from 'react';
 import {plansData} from '../../data/plansData';
-import whiteTick from '../../assets/whiteTick.png'
+import whiteTick from '../../assets/whiteTick.png';
 import './Plans.css'
 
 
