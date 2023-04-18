@@ -61,7 +61,7 @@
     height: 19rem;
     top: 4rem;
     right: 7rem;
-    background-color: var(--planCard);
+    background: var(--planCard);
 }
 
 .arrows {
