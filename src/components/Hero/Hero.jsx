@@ -11,7 +11,8 @@ import {Link} from 'react-scroll'
 
 const Hero = () => {
 
-  const transition = {type: 'spring', duration:3}
+  const transition = {type: "spring", duration:3};
+  const mobile = window.innerWidth<=768 ? true : false;
 
   return (
     <div className="hero">
@@ -22,9 +23,9 @@ const Hero = () => {
         {/* the best add */}
         <div className="the-best-ad">
           <motion.div
-          initial={{left: '239px'}}
-          whileInView={{left: '8px'}}
-          transition={{...transition, type: 'tween'}}
+          initial={{left: mobile? "165px" : '238px'}}
+          whileInView={{left: "8px"}}
+          transition={{...transition, type: "tween"}}
           ></motion.div>
           <span>the best fitness club in the town</span>
         </div>
