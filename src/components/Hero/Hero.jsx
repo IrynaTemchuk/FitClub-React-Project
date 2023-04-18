@@ -15,7 +15,7 @@ const Hero = () => {
   const mobile = window.innerWidth<=768 ? true : false;
 
   return (
-    <div className="hero">
+    <div className="hero" id='home'>
       <div className="blur hero-blur"></div>
       {/* left side hero */}
       <div className="left-h">

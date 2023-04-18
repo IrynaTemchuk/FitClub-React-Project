@@ -34,7 +34,7 @@ const Header = () => {
             <Link
               onClick={() => setMenuOpened(false)}
               activeClass="active"
-              to="header"
+              to="home"
               spy={true}
               smooth={true}
             >
